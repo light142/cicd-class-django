@@ -23,5 +23,4 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run Django test
         run: |
-          cd Django_Tutorial_CICD
           python manage.py test
